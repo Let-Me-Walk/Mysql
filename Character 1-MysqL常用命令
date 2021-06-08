@@ -16,3 +16,13 @@
   
 5.终止正在编写的语句，可键入\c;
 6.退出mysql：使用/q,QUIT，EXIT
+
+
+——————————————————————————————————————————————————————————
+
+mysql导入数据库步骤：
+1.连接mysql：mysql -u -root
+2.创建名为YS01的数据库：create database YS01;
+3.选择数据库：use YS01；
+4.导入数据：source H:\ YS01.sql
+5.删除数据库：drop database YS01；
