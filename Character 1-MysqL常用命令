@@ -1,0 +1,18 @@
+1.RDBMS:Relational DataBase Management System,关系型数据库管理系统
+2.Mysql版本查询指令：
+  1) >mysql --version
+  2) >mysql -V
+  
+3.Mysql创建数据库
+  create database 数据库名称;
+  
+  在数据库中创建表时，必须先选择数据库
+  use Ys01;
+  
+4.查询当前使用数据库
+   
+  1）select database();
+  2) select version()
+  
+5.终止正在编写的语句，可键入\c;
+6.退出mysql：使用/q,QUIT，EXIT
